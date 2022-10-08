@@ -1,0 +1,39 @@
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.contato__titulo {
+    color: var(--azul-letra);
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: var(--montserrat);
+    text-transform: uppercase;
+    text-align: center;
+
+    margin-bottom: 1.25rem;
+}
+
+.contato__botao {
+    color: var(--cinza-escuro);
+
+    border-color: var(--cinza-escuro);
+
+    margin-top: 1rem;
+    border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+.contato__botao:hover, .contato__botao:active {
+    
+    background: var(--azul-letra);
+    color: var(--branco);
+	transform: scale(1.05);
+    font-weight: bold;
+}
